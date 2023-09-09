@@ -1,0 +1,125 @@
+@font-face {
+    font-family:'idroid' ;
+    src: url(./fontes/idroid.otf);
+    font-size:normal;
+}
+@font-face {
+    font-family: 'Bebas-Regular';
+    src: url(./fontes/Bebas-Regular.ttf);
+}
+
+body {
+    background-color: #83E1AD;
+    margin: 0px;
+}
+
+header {
+    background-image: linear-gradient(to top, #063D1E, #2FA866, #3DDC84);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10PX;
+    
+}
+header > p {
+    text-align: center;
+    color: white;
+}
+
+
+nav > a {
+    color: white;
+    text-align: left;
+    text-decoration: none;
+    font-size: 12px;
+    
+}
+
+a:hover {
+    text-decoration: underline;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    color: white;
+    text-align: center;
+    font-family:'Bebas-Regular';
+    font-weight: lighter;
+}
+
+h2,h3 {
+    color: #063D1E;
+    font-family: 'idroid'
+     
+}
+
+p {
+    text-align: justify;
+    text-indent: 15px;
+}
+
+img {
+    height: 300px;
+    margin: auto;
+   
+}
+.imagem {
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    background-color: white;
+    margin: 0px 100px;
+    padding: 10px;
+   
+}
+
+.video {
+    background-color: #063D1E;
+    height: 300px;
+}
+iframe {
+    height: 290px;
+    display: flex;
+    justify-content: center;
+}
+
+#ultima-parte {
+    background-color: white;
+    
+}
+#ultima-caixa {
+    background-color:#83e1ad70;
+    
+    padding: 15px;
+    text-align: justify;
+    text-indent: 10px;
+}
+#final {
+    background-color:#2FA866;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px;
+    
+}
+
+aside {
+    text-align: center;
+
+}
+footer {
+    background-color: #063D1E;
+    text-align: center;
+    color: white;
+    height: 20px;
+    padding: 15px;
+}
+
+
+
+
+
+
+
+

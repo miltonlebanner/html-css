@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: aquamarine;
+            margin: 0px;
+
+        }
+        header {
+            background-color:cornsilk;
+            margin: 10px;
+            padding: 10px;
+        }
+        nav {
+            background-color: gray;
+            padding: 3px;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.473);
+
+        }
+        nav > a {
+            text-decoration: none;
+            color: aliceblue;
+            font-weight: normal;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+        }
+        main {
+            background-color: cornsilk;
+            margin: 10px;
+            padding: 10px;
+            border-radius: 5px 5px 1px 1px;
+            box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 0.473);
+        }
+        article {
+            background-color: lightgrey;
+            padding: 10px;
+        }
+        article > aside {
+            background-color: darkcyan;
+            text-align: right;
+        }
+        footer {
+            background-color: blueviolet;
+            color: black;
+            text-align: center;
+            padding: 2px;
+            
+
+        }
+        footer > p {
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes Política Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint sed distinctio possimus, voluptatem esse non? Ex, sunt laboriosam fugit culpa totam odit expedita ut aut, necessitatibus iure quisquam, amet error!</p>
+
+                <aside>
+                    <p>Artigo escrito po Milton</p>
+                </aside>
+            </article>
+
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido po Milton</p>
+    </footer>
+</body>
+</html>

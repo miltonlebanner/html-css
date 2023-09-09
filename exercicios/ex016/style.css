@@ -1,0 +1,39 @@
+@charset "UTF-8";
+    * {
+    font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+        background-image: linear-gradient(to bottom,#818274, #A3AB78);
+        background-attachment: fixed;
+    }
+
+    main {
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 10px 10px 10px #506266;
+        width: 600px;
+        padding: 10px;
+        margin: auto;
+    }
+
+    h1 {
+        font-family: 'Times New Roman', Times, serif;
+        color: #10454F ;
+        text-align: center;
+        text-shadow: 1px 1px 2px #BDE038;
+    }
+
+    h2 {
+        font-family: Arial, Helvetica, sans-serif;
+        color: #BDE038;
+    }
+
+    p {
+        font-family: 'Courier New', Courier, monospace;
+        text-align: justify;
+    }
+
+
+
+
