@@ -3,7 +3,7 @@
 
 Estou aprendendo a criar sites e agora vou gerenciar meus repositórios!
 
-<a href="https://miltonlebanner.github.io/html-css/desafios/desafio010-versaoguanabara"> Executar Desafio Site Android</a>
+<a href="https://miltonlebanner.github.io/html-css/desafios/desafio010-versaoguanabara"> Executar Desafio Site Android Versão Guanabara</a>
 
 
 
